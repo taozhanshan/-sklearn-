@@ -1,0 +1,18 @@
+1. 参考网址： http://blog.csdn.net/m53931422/article/details/42489897
+
+2. 安装sklearn之前，我们需要先安装numpy，scipy函数库。
+  Numpy下载地址：http://sourceforge.net/projects/numpy/files/NumPy
+  Scipy下载地址：http://sourceforge.net/projects/scipy/files/Scipy
+  下载地址：https://github.com/scikit-learn/scikit-learn
+  
+ 3. 安装numpy，scipy和sklearn
+  (1) 选择版本分别为：numpy-1.11.2.zip; scipy-0.16.0; scikit-learn-master;
+  (2) 安装numpy
+      unzip numpy-1.11.2.zip
+      cd numpy-1.11.2
+      /usr/bin/python2.7 setup.py install
+   (3) 安装scipy时遇到报错
+        numpy.distutils.system_info.NotFoundError: no lapack/blas resources found
+        参考：http://stackoverflow.com/questions/30753431/numpy-distutils-system-info-notfounderror-no-lapack-blas-resources-found
+        问题待解决
+    
